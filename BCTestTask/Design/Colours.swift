@@ -85,12 +85,3 @@ extension ColorPrimitive {
 extension Color: ColorPrimitive {
     static func make(withAssetCatalogName name: String) -> Self { Color(name) }
 }
-
-extension UIColor: ColorPrimitive {
-    static func make(withAssetCatalogName name: String) -> Self {
-        guard let color = Self(named: name) else {
-            fatalError("Unknown color name: \(name)")
-        }
-        return color
-    }
-}
