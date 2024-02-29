@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct MainView {
-    @Environment(\.contentInsets) private var contentInset
     @State private var pinnedContentHeight: CGFloat = 0
+
+    func buttonAction() {
+        print("Load data")
+    }
 }
 
 extension MainView: View {
@@ -19,15 +22,10 @@ extension MainView: View {
                 ScrollView {
                     VStack(spacing: 0) {
                         header
-                            .padding(.top, contentInset.top)
-                            .padding(.leading, contentInset.leading)
-                            .padding(.trailing, contentInset.trailing)
                         content
-                            .padding(.leading, contentInset.leading)
-                            .padding(.trailing, contentInset.trailing)
-                            .padding(.bottom, contentInset.bottom + pinnedContentHeight)
+                            .padding(.bottom, pinnedContentHeight)
                             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-                            .background(contentBackground
+                            .background(Color.cobalt_50_550
                                 .clipShape(TopSCurve())
                                 .padding(.bottom, -geometry.safeAreaInsets.bottom))
                     }
@@ -56,7 +54,7 @@ extension MainView: View {
     }
     
     var content: some View {
-        Text("Load Content Here")
+        Text("Display Content Here")
             .font(.body)
             .padding(.top, 32)
             .foregroundStyle(Color.cobalt_500_white_0)
@@ -65,7 +63,7 @@ extension MainView: View {
     var contentBackground: some View {
         Color.cobalt_50_550
     }
-    
+
     var pinned: some View {
         Button(action: buttonAction) {
             ButtonTitleView("Load Data")
@@ -73,9 +71,5 @@ extension MainView: View {
         .buttonStyle(CapsuleButtonStyle(.cobaltWhite))
         .comfortableReadingWidth()
         .padding(.horizontal, DesignConstants.gutterNarrow)
-    }
-    
-    func buttonAction() {
-        //Load data from Health Kit
     }
 }

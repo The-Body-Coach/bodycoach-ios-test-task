@@ -1,5 +1,5 @@
 //
-//  ContentEdgeInset.swift
+//  BoundsChangeObserver.swift
 //  BCTestTask
 //
 //  Created by Emilia Tothova on 25/02/2024.
