@@ -54,7 +54,7 @@ extension MainView: View {
     }
     
     var content: some View {
-        Text("Load Content Here")
+        Text("Display Content Here")
             .font(.body)
             .padding(.top, 32)
             .foregroundStyle(Color.cobalt_500_white_0)
