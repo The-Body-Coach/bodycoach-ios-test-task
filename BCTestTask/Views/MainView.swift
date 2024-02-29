@@ -25,7 +25,7 @@ extension MainView: View {
                         content
                             .padding(.bottom, pinnedContentHeight)
                             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-                            .background(contentBackground
+                            .background(Color.cobalt_50_550
                                 .clipShape(TopSCurve())
                                 .padding(.bottom, -geometry.safeAreaInsets.bottom))
                     }
@@ -63,7 +63,7 @@ extension MainView: View {
     var contentBackground: some View {
         Color.cobalt_50_550
     }
-    
+
     var pinned: some View {
         Button(action: buttonAction) {
             ButtonTitleView("Load Data")
