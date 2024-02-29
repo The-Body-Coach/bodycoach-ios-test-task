@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct MainView {
-    @Environment(\.contentInsets) private var contentInset
     @State private var pinnedContentHeight: CGFloat = 0
 }
 
@@ -19,13 +18,8 @@ extension MainView: View {
                 ScrollView {
                     VStack(spacing: 0) {
                         header
-                            .padding(.top, contentInset.top)
-                            .padding(.leading, contentInset.leading)
-                            .padding(.trailing, contentInset.trailing)
                         content
-                            .padding(.leading, contentInset.leading)
-                            .padding(.trailing, contentInset.trailing)
-                            .padding(.bottom, contentInset.bottom + pinnedContentHeight)
+                            .padding(.bottom, pinnedContentHeight)
                             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
                             .background(contentBackground
                                 .clipShape(TopSCurve())
