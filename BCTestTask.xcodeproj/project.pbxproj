@@ -8,17 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		A5354B982B86568800FE684B /* BCTestTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5354B972B86568800FE684B /* BCTestTaskApp.swift */; };
-		A5354B9A2B86568800FE684B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5354B992B86568800FE684B /* ContentView.swift */; };
+		A5354B9A2B86568800FE684B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5354B992B86568800FE684B /* MainView.swift */; };
 		A5354B9C2B86568C00FE684B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5354B9B2B86568C00FE684B /* Assets.xcassets */; };
 		A5354B9F2B86568C00FE684B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5354B9E2B86568C00FE684B /* Preview Assets.xcassets */; };
+		A5354BAE2B86662800FE684B /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5354BAD2B86662800FE684B /* Colours.swift */; };
+		A561682B2B8CE68A00E33784 /* CapsuledButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A561682A2B8CE68A00E33784 /* CapsuledButtonStyle.swift */; };
+		A561682D2B8CE6AE00E33784 /* ButtonStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A561682C2B8CE6AE00E33784 /* ButtonStyling.swift */; };
+		A561682F2B8CE6C700E33784 /* ButtonSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A561682E2B8CE6C700E33784 /* ButtonSize.swift */; };
+		A56168312B8CE77400E33784 /* DesignConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56168302B8CE77400E33784 /* DesignConstants.swift */; };
+		A56168332B8CE80100E33784 /* ButtonTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56168322B8CE80100E33784 /* ButtonTitleView.swift */; };
+		A56168352B8CE85E00E33784 /* ComfortableReadingWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56168342B8CE85E00E33784 /* ComfortableReadingWidth.swift */; };
+		A5796A7F2B8B7F9B006C6B81 /* ContentInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5796A7E2B8B7F9B006C6B81 /* ContentInsets.swift */; };
+		A5796A812B8B84AE006C6B81 /* SCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5796A802B8B84AE006C6B81 /* SCurve.swift */; };
+		A5796A832B8B8BEA006C6B81 /* ContentEdgeInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5796A822B8B8BEA006C6B81 /* ContentEdgeInset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5354B942B86568800FE684B /* BCTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5354B972B86568800FE684B /* BCTestTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCTestTaskApp.swift; sourceTree = "<group>"; };
-		A5354B992B86568800FE684B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5354B992B86568800FE684B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A5354B9B2B86568C00FE684B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5354B9E2B86568C00FE684B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5354BAD2B86662800FE684B /* Colours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
+		A561682A2B8CE68A00E33784 /* CapsuledButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuledButtonStyle.swift; sourceTree = "<group>"; };
+		A561682C2B8CE6AE00E33784 /* ButtonStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyling.swift; sourceTree = "<group>"; };
+		A561682E2B8CE6C700E33784 /* ButtonSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSize.swift; sourceTree = "<group>"; };
+		A56168302B8CE77400E33784 /* DesignConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignConstants.swift; sourceTree = "<group>"; };
+		A56168322B8CE80100E33784 /* ButtonTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTitleView.swift; sourceTree = "<group>"; };
+		A56168342B8CE85E00E33784 /* ComfortableReadingWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfortableReadingWidth.swift; sourceTree = "<group>"; };
+		A56168382B8CEA0100E33784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A5796A7E2B8B7F9B006C6B81 /* ContentInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentInsets.swift; sourceTree = "<group>"; };
+		A5796A802B8B84AE006C6B81 /* SCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCurve.swift; sourceTree = "<group>"; };
+		A5796A822B8B8BEA006C6B81 /* ContentEdgeInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentEdgeInset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,10 @@
 		A5354B962B86568800FE684B /* BCTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				A56168382B8CEA0100E33784 /* Info.plist */,
+				A5354BA82B8664AF00FE684B /* Design */,
+				A5354BA52B865A0600FE684B /* Views */,
 				A5354B972B86568800FE684B /* BCTestTaskApp.swift */,
-				A5354B992B86568800FE684B /* ContentView.swift */,
 				A5354B9B2B86568C00FE684B /* Assets.xcassets */,
 				A5354B9D2B86568C00FE684B /* Preview Content */,
 			);
@@ -65,6 +88,31 @@
 				A5354B9E2B86568C00FE684B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5354BA52B865A0600FE684B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5354B992B86568800FE684B /* MainView.swift */,
+				A56168322B8CE80100E33784 /* ButtonTitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5354BA82B8664AF00FE684B /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				A5354BAD2B86662800FE684B /* Colours.swift */,
+				A5796A7E2B8B7F9B006C6B81 /* ContentInsets.swift */,
+				A5796A802B8B84AE006C6B81 /* SCurve.swift */,
+				A5796A822B8B8BEA006C6B81 /* ContentEdgeInset.swift */,
+				A561682A2B8CE68A00E33784 /* CapsuledButtonStyle.swift */,
+				A561682C2B8CE6AE00E33784 /* ButtonStyling.swift */,
+				A561682E2B8CE6C700E33784 /* ButtonSize.swift */,
+				A56168302B8CE77400E33784 /* DesignConstants.swift */,
+				A56168342B8CE85E00E33784 /* ComfortableReadingWidth.swift */,
+			);
+			path = Design;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +185,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5354B9A2B86568800FE684B /* ContentView.swift in Sources */,
+				A5354BAE2B86662800FE684B /* Colours.swift in Sources */,
+				A5354B9A2B86568800FE684B /* MainView.swift in Sources */,
+				A56168332B8CE80100E33784 /* ButtonTitleView.swift in Sources */,
+				A56168312B8CE77400E33784 /* DesignConstants.swift in Sources */,
+				A5796A7F2B8B7F9B006C6B81 /* ContentInsets.swift in Sources */,
+				A56168352B8CE85E00E33784 /* ComfortableReadingWidth.swift in Sources */,
+				A5796A832B8B8BEA006C6B81 /* ContentEdgeInset.swift in Sources */,
+				A561682B2B8CE68A00E33784 /* CapsuledButtonStyle.swift in Sources */,
+				A561682F2B8CE6C700E33784 /* ButtonSize.swift in Sources */,
+				A5796A812B8B84AE006C6B81 /* SCurve.swift in Sources */,
+				A561682D2B8CE6AE00E33784 /* ButtonStyling.swift in Sources */,
 				A5354B982B86568800FE684B /* BCTestTaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +333,7 @@
 				DEVELOPMENT_TEAM = 7752TQQXG7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BCTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +363,7 @@
 				DEVELOPMENT_TEAM = 7752TQQXG7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BCTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
