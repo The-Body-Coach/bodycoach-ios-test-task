@@ -1,6 +1,6 @@
 # Welcome to the Body Coach Test Task!
 
-Please Fork this repository, do not comit (Edge - if you could please make these instructions clearer)
+Clone this repository and commit your changes as you would normally. Once you've finished, you can either publish your changes to a public repository and send us the link to it or you can zip up the repository and send it to us directly.
 
 The end result we would like to get is the following:
 
@@ -17,7 +17,7 @@ The numbers in the upper row should represent the day, and the numbers in the se
 - Don't worry about the design too much, but try to make it as close to the screenshot as possible
 - If there is anything you don't like in the original, please feel free to change it
 - To load test data, open the Health App on the simulator (you might need to go through a quick set up), find steps (Browse tab, and there is a search), click Add Data from the top.
-- Please don't spend more than 2 hours on this take, the aim here is to see, how well we can work together and discuss ideas / issues 
+- Please don't spend more than 2 hours on this task, the aim here is to see how well we can work together and discuss ideas / feedback 
 </td></tr></table>
 
 Good luck, we are looking forward to discuss it with you on the next round!
