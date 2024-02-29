@@ -9,6 +9,10 @@ import SwiftUI
 
 struct MainView {
     @State private var pinnedContentHeight: CGFloat = 0
+
+    func buttonAction() {
+        print("Load data")
+    }
 }
 
 extension MainView: View {
@@ -67,9 +71,5 @@ extension MainView: View {
         .buttonStyle(CapsuleButtonStyle(.cobaltWhite))
         .comfortableReadingWidth()
         .padding(.horizontal, DesignConstants.gutterNarrow)
-    }
-    
-    func buttonAction() {
-        //Load data from Health Kit
     }
 }
